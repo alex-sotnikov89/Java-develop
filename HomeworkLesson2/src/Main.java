@@ -68,9 +68,16 @@ public class Main {
 //        Вариант 2, но какой лучше? Получается он 4 раза перезаписывает одну и ту же позицию.
 //        for (int i = 0; i < array.length; i++) {
 //            for (int j = 0; j < array[i].length; j++) {
-//                    array[i][i] = 1;
+//                array[i][i] = 1;
 //            }
+//        }
 
+        for (int i = 0; i < array.length; i++) {
+            for (int j = array[i].length-1-i; j >= 0; j--) {
+                array[i][j] = 1;
+                break;
+            }
+        }
         System.out.println();
 
         for (int i = 0; i < array.length; i++) {
