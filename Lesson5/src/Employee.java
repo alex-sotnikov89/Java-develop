@@ -16,12 +16,12 @@ public class Employee {
     }
 
     public void showInfoEmployee() {
-        System.out.println("Сотрудник \nФИО: " + this.name + ";");
-        System.out.println("Возраст: " + this.age + ";");
-        System.out.println("Должность: " + this.position + ";");
-        System.out.println("Зарплата: " + this.salary + ";");
-        System.out.println("Телефон: " + this.telephone + ";");
-        System.out.println("email: " + this.email + ";");
+        System.out.println("Сотрудник \nФИО: " + name + ";");
+        System.out.println("Возраст: " + age + ";");
+        System.out.println("Должность: " + position + ";");
+        System.out.println("Зарплата: " + salary + ";");
+        System.out.println("Телефон: " + telephone + ";");
+        System.out.println("email: " + email + ";");
     }
 
     public int getAge() {
