@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Dog extends Animal {
     public Dog(String name) {
-        super(name);
+        this.name=name;
     }
 
     @Override

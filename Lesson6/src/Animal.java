@@ -1,26 +1,11 @@
 import java.util.Random;
 import java.util.Scanner;
-
-public class Animal {
+abstract public class Animal {
     protected String name;
+    abstract protected void run(Scanner scanner, Random random);
 
-    public Animal(String name) {
-        this.name = name;
-    }
+    abstract protected void swim(Scanner scanner, Random random);
 
-    public void run(Scanner scanner, Random random) {
-    }
-
-    ;
-
-    public void swim(Scanner scanner, Random random) {
-    }
-
-    ;
-
-    public void jump(Scanner scanner, Random random) {
-    }
-
-    ;
+    abstract protected void jump(Scanner scanner, Random random);
 
 }

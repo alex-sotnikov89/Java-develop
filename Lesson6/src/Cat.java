@@ -2,8 +2,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Cat extends Animal {
-    public Cat(String name) {
-        super(name);
+    public Cat(String name){
+        this.name=name;
     }
 
     @Override
