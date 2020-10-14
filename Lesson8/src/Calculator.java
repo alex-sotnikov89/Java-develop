@@ -28,8 +28,6 @@ public class Calculator {
         top.add(outField, BorderLayout.CENTER);
 
         ActionButtonListener abListener = new ActionButtonListener(outField);
-        ActionCancelListener aCancelListener = new ActionCancelListener(outField);
-        ActionSubmitListener aSubmitListener = new ActionSubmitListener(outField);
         for (int i = 0; i <= 9; i++) {
             JButton digitBtn = new JButton(String.valueOf(i));
             bottom.add(digitBtn);
@@ -53,11 +51,11 @@ public class Calculator {
         bottomSigns.add(divBtn);
 
         JButton cancelBtn = new JButton("C");
-        cancelBtn.addActionListener(aCancelListener);
+        cancelBtn.addActionListener(abListener);
         bottom.add(cancelBtn);
 
         JButton submitBtn = new JButton("Submit");
-        submitBtn.addActionListener(aSubmitListener);
+        submitBtn.addActionListener(abListener);
         bottom.add(submitBtn);
 
         mainFrame.setVisible(true);
