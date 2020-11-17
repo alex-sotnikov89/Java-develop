@@ -1,6 +1,6 @@
-package structure.list;
+package Lesson8.structure.list;
 
-import structure.list.impl.SingleLinkedList;
+import Lesson8.structure.list.impl.SingleLinkedList;
 
 import java.util.ArrayList;
 import java.util.Iterator;

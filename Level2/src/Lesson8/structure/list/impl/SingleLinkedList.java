@@ -1,7 +1,7 @@
-package structure.list.impl;
+package Lesson8.structure.list.impl;
 
-import structure.list.GBIterator;
-import structure.list.GBList;
+import Lesson8.structure.list.GBIterator;
+import Lesson8.structure.list.GBList;
 
 public class SingleLinkedList implements GBList {
     private Node first;

@@ -1,4 +1,4 @@
-package structure.list;
+package Lesson8.structure.list;
 
 public interface GBList extends GBIterable {
     void add(String val);
